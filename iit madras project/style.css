@@ -1,0 +1,80 @@
+body{
+  background-color:#B5D8FF;
+}
+.container{
+  height: 100vh;
+  display: grid;
+  gap: 0;
+  grid-template-columns: 9fr 11fr;
+  margin-top: 60px;
+ 
+
+
+}
+.div2{
+background-color:#E4F1FF;
+height: 800px;
+width: 1250px;
+border-radius: 30px;
+position: absolute;
+z-index: -1;
+
+
+}
+.div1{
+  background-color: #5C9CE5;
+  height:800px;
+  width: 300px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius:30px ;
+  position: absolute;
+  z-index: -1;
+ 
+}
+.div2-navbar{
+  padding-top: 25px;
+  padding-left: 350px;
+  padding-bottom: 25px;
+  
+}
+.div2-body{
+  padding-left: 350px;
+
+}
+.h6{
+  font-family: 'Nunito', sans-serif;
+  text-align: left !important;
+}
+.p{
+  font-family: 'Nunito', sans-serif;
+}
+.icons{
+  display: flex !important;
+  float: right !important;
+  margin-top: -60px !important;
+  margin-right: 20px !important;
+  border-radius: 10px !important;
+}
+.div2-body-image{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-top: 10px;
+  gap: 10px;
+}
+.div1-icon{
+width: 50px;
+float: left;
+padding: 20px;
+}
+.div1-icon1{
+  width: 50px;
+  float: right;
+  padding-top:20px;
+}
+.div1-img{
+  padding-top: 20px;
+  padding-left: 13px;
+}
